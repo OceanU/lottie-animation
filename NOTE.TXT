@@ -1,0 +1,17 @@
+Easy React Animations with lootie
+https://www.youtube.com/watch?v=Y8iTvfclmYM
+
+
+https://lottiefiles.com/
+1) select an animation
+2) download json file
+3) install lottie-react [npm lottie-react]
+4) import Lottie from "lottie-react";
+                  +
+   import animationData from './assets/Animation.json'  => animation.json is animaton that you download from lottie
+
+
+5) Add component like this :      <Lottie animationData={animationData} />
+
+
+6) for mor controll add const phoneRef = useRef<LottieRefCurrentProps>(null) for more control over animation. [SEE Movie: https://www.youtube.com/watch?v=Y8iTvfclmYM]
